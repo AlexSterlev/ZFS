@@ -96,18 +96,3 @@ tank/zle     compressratio  1.09x     -
   
   - Импортируем пулов устройств хранения данных
   
-    ````
-  zpool import -d ${PWD}/zpoolexport/
-  
-  pool: otus
-     id: 6554193320433390805
-  state: ONLINE
- action: The pool can be imported using its name or numeric identifier.
- config:
-
-        otus                                 ONLINE
-          mirror-0                           ONLINE
-            /home/vagrant/zpoolexport/filea  ONLINE
-            /home/vagrant/zpoolexport/fileb  ONLINE
-  ````
-  
