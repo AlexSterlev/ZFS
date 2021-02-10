@@ -23,13 +23,6 @@ zfs set compression=lzjb tank/lzjb
 zfs set dedup=on tank
   ````
 
-  - Создадим файловую систему и примонтируем
-
-  ````
-  mkfs.xfs /dev/vg_root/lv_root
-  mount /dev/vg_root/lv_root /mnt
-  ````
-
   - Вывод zfs list
 
   ````
