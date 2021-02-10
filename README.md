@@ -53,7 +53,7 @@ tank/zle       24K   832M       24K  /tank/zle
 
   ````
 
-  Вывод zfs list после копирования:
+  - Вывод zfs list после копирования:
 
   ````
   NAME          USED  AVAIL     REFER  MOUNTPOINT
@@ -66,7 +66,7 @@ tank/zle     9.99M   805M     9.99M  /tank/zle
 
   ````
 
-  Вывод zfs get compression,compressratio:
+  - Вывод zfs get compression,compressratio:
 
   ````
   NAME         PROPERTY       VALUE     SOURCE
