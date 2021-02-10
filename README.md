@@ -100,4 +100,12 @@ tank/zle     compressratio  1.09x     -
   sudo zpool import -d /home/vagrant/zpoolexport/ otus
  
   ````
+  - Вывод zpool list
   
+   ````
+ ````
+  sudo zpool import -d /home/vagrant/zpoolexport/ otus
+ 
+  ````
+ 
+  ````
