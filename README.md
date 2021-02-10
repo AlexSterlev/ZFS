@@ -94,7 +94,7 @@ tank/zle     compressratio  1.09x     -
  
   ````
   
-  - Импортируем пулов устройств хранения данных
+  - Импортируем пул устройств хранения данных
   
    ````
   sudo zpool import -d /home/vagrant/zpoolexport/ otus
