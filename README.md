@@ -107,9 +107,9 @@ tank/zle     compressratio  1.09x     -
 otus      480M  2.09M   478M        -         -     0%     0%  1.00x    ONLINE  -
 storage   960M   106K   960M        -         -     0%     0%  1.00x    ONLINE  -
 tank      960M  27.2M   933M        -         -     0%     2%  1.05x    ONLINE  -
+ ````
 
- 
-  ````
+
 - Вывод zfs list
 
 
