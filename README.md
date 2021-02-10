@@ -107,8 +107,22 @@ tank/zle     compressratio  1.09x     -
 otus      480M  2.09M   478M        -         -     0%     0%  1.00x    ONLINE  -
 storage   960M   106K   960M        -         -     0%     0%  1.00x    ONLINE  -
 tank      960M  27.2M   933M        -         -     0%     2%  1.05x    ONLINE  -
- ````
+  ````
 
 
 - Вывод zfs list
 
+
+ ````
+NAME             USED  AVAIL     REFER  MOUNTPOINT
+otus            2.04M   350M       24K  /otus
+otus/hometask2  1.88M   350M     1.88M  /otus/hometask2
+storage         88.5K   832M       24K  /storage
+tank            27.8M   805M     29.5K  /tank
+tank/gzip       3.18M   805M     3.18M  /tank/gzip
+tank/gzip-9     3.17M   805M     3.17M  /tank/gzip-9
+tank/lz4        4.85M   805M     4.85M  /tank/lz4
+tank/lzjb       5.81M   805M     5.81M  /tank/lzjb
+tank/zle        9.99M   805M     9.99M  /tank/zle
+
+ ````
