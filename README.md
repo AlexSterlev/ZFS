@@ -109,7 +109,5 @@ tank/zle     compressratio  1.09x     -
           mirror-0                           ONLINE
             /home/vagrant/zpoolexport/filea  ONLINE
             /home/vagrant/zpoolexport/fileb  ONLINE
-ды
- 
   ````
   
