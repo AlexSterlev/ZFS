@@ -146,7 +146,7 @@ zfs receive otus/storage/lab4 < otus_task2.file
 
 ````
 find /otus/storage/ -name sec*
-/otus/storage/text2/task1/file_mess/secret_message
+/otus/storage/lab4/task1/file_mess/secret_message
  ````
 
 Результат:
