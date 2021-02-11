@@ -126,3 +126,28 @@ tank/lzjb       5.81M   805M     5.81M  /tank/lzjb
 tank/zle        9.99M   805M     9.99M  /tank/zle
 
  ````
+
+### Часть 3
+
+- Найти секретное сообщение
+
+ ````
+Скачиваем файл с снапшотом.
+Создаём ФС "otus/storage":
+zfs create otus/storage
+ ````
+
+- Импортируем снапшот:
+
+````
+zfs receive otus/storage/lab4 < otus_task2.file
+ ````
+Комисар Мигре ведёт расследование:
+
+````
+find /otus/storage/ -name sec*
+/otus/storage/text2/task1/file_mess/secret_message
+ ````
+
+Результат:
+https://github.com/sindresorhus/awesome
