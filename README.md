@@ -142,7 +142,7 @@ zfs create otus/storage
 ````
 zfs receive otus/storage/lab4 < otus_task2.file
  ````
-Комисар Мигре ведёт расследование:
+- Комисар Мигре ведёт расследование:
 
 ````
 find /otus/storage/ -name sec*
